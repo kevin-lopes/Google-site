@@ -235,7 +235,7 @@ body{
     }
     .rodape-link{
         display: flex;
-        gap: 30px;
+        gap: 18px;
         padding: 5px;
     }
 }
@@ -289,7 +289,7 @@ body{
     }
     .rodape-link{
         display: flex;
-        gap: 25px;
+        gap: 20px;
         padding: 5px;
     }
 }
