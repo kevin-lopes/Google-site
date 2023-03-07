@@ -231,14 +231,13 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px;
         margin-bottom: 15px;
         margin-top: 5px;
     }
     .rodape-link{
         display: flex;
+        justify-content: center;
         gap: 18px;
-        padding: 5px;
     }
 }
 
@@ -287,14 +286,13 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px;
         margin-bottom: 15px;
         margin-top: 5px;
     }
     .rodape-link{
         display: flex;
         gap: 20px;
-        padding: 5px;
+        justify-content: center;
     }
 }
 
