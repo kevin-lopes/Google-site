@@ -187,6 +187,67 @@ body{
 /* Fim do rodape */
 
 
+@media (max-width: 375px){
+    .conteudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .conteudo-pesquisa{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid #c4c7cc73;
+        padding: 5px;
+        height: 44px;
+        width: 250px;
+        border-radius: 24px;
+        margin-top: 15px;
+    }
+    .conteudo-input input{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        height: 38px;
+        width: 200px;
+        font-size: 16px;
+        outline: none;
+        color: #eeeeee;
+    }
+    
+    .rodape{
+        background: #171717;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+    .rodape-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2px;
+        margin-top: 1px;
+    }
+    .rodape-link{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 500px){
     .conteudo{
         display: flex;
@@ -231,13 +292,13 @@ body{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 5px;
-        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-top: 1px;
     }
     .rodape-link{
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 5px;
     }
 }
 
@@ -258,7 +319,7 @@ body{
         border: 1px solid #c4c7cc73;
         padding: 5px;
         height: 44px;
-        width: 400px;
+        width: 360px;
         border-radius: 24px;
         margin-top: 15px;
     }
@@ -269,7 +330,7 @@ body{
         border: none;
         background-color: transparent;
         height: 38px;
-        width: 230px;
+        width: 200px;
         font-size: 15px;
         outline: none;
         color: #eeeeee;
@@ -286,12 +347,12 @@ body{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 5px;
-        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-top: 1px;
     }
     .rodape-link{
         display: flex;
-        gap: 15px;
+        gap: 5px;
         justify-content: center;
     }
 }
