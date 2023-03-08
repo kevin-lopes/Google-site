@@ -194,6 +194,7 @@ body{
         align-items: center;
         flex-direction: column;
         margin-top: 30px;
+        
     }
     .conteudo-pesquisa{
         display: flex;
@@ -237,7 +238,7 @@ body{
     .rodape-link{
         display: flex;
         justify-content: center;
-        gap: 5px;
+        gap: 10px;
     }
 }
 
@@ -255,6 +256,7 @@ body{
         align-items: center;
         flex-direction: column;
         margin-top: 30px;
+        
     }
     .conteudo-pesquisa{
         display: flex;
@@ -294,11 +296,12 @@ body{
         align-items: center;
         margin-bottom: 2px;
         margin-top: 1px;
+        padding: 0px 20px;
     }
     .rodape-link{
         display: flex;
         justify-content: center;
-        gap: 5px;
+        gap: 10px;
     }
 }
 
@@ -310,6 +313,7 @@ body{
         align-items: center;
         flex-direction: column;
         margin-top: 30px;
+        
     }
     .conteudo-pesquisa{
         display: flex;
@@ -349,10 +353,11 @@ body{
         align-items: center;
         margin-bottom: 2px;
         margin-top: 1px;
+        padding: 0px 20px;
     }
     .rodape-link{
         display: flex;
-        gap: 5px;
+        gap: 10px;
         justify-content: center;
     }
 }
