@@ -20,6 +20,7 @@ body{
 .cabecalho-menu{
     display: flex;
     align-items: center;
+    padding: 5px;
     gap: 15px;
 }
 
@@ -39,20 +40,18 @@ body{
     gap: 15px;
 }
 
-.cabecalho-menu-icon{
+.cabecalho-menu-icon {
     display: flex;
     align-items: center;
     width: 25px;
     height: 25px;
     cursor: pointer;
-    padding: 1px;
-    
 }
 
 .cabecalho-menu-icon:hover{
-    padding: 3px;
     border-radius: 50%;
-    background-color: #7b7d80 ;
+    background-color: #424346;
+    padding: 2px;
     
 }
 
